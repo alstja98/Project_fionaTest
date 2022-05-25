@@ -2,7 +2,7 @@ import cv2
 from PIL import Image
 
 #이미지 회색으로 바꾸기
-for i in range(1,9):
+for i in range(1,2):
     for j in range(1,150):
         try:
             path = "./img0"+str(i)+"/gray"+str(j)+".jpg"
