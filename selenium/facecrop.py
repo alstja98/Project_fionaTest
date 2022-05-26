@@ -5,10 +5,10 @@ from autocrop import Cropper
 
 cropper = Cropper()
 
-for i in range(1,2):
+for i in range(9,10):
     for j in range(1,150):
         try:
-            cropped_array = cropper.crop('./img0'+str(i)+'/'+str(j)+'.jpg')
+            cropped_array = cropper.crop('./img0'+str(i)+'/'+str(j)+'.png')
             cropped_image = Image.fromarray(cropped_array)
             cropped_image.save('./img0'+str(i)+'/cropped'+str(j)+'.png')
         except:

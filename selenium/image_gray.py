@@ -2,10 +2,10 @@ import cv2
 from PIL import Image
 
 #이미지 회색으로 바꾸기
-for i in range(1,2):
+for i in range(9,10):
     for j in range(1,150):
         try:
-            path = "./img0"+str(i)+"/gray"+str(j)+".jpg"
+            path = "./img0"+str(i)+"/gray"+str(j)+".png"
             # 이미지 읽기
             img_color = cv2.imread("./img0"+str(i)+"/cropped"+str(j)+".png", cv2.IMREAD_COLOR)
 
