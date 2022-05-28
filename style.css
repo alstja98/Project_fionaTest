@@ -1,14 +1,7 @@
 body {
     font-family: sans-serif;
     background-color: #b6fd87;
-}
 
-.navbar{
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 .upload{
     width:20%;
@@ -16,13 +9,13 @@ body {
     padding-bottom: 50px;
 }
 .file-upload {
-    background-color: #f6f7fa;
+    background-color: #cddc39;
     margin: 0 auto;
     padding: 3% 3%;
     width: 50%;
-    border-radius: 10px;
-    border: solid 1.5px #f6f7fa;
-
+    border-radius: 15px;
+    border: solid 1.5px #cddc39;
+    
 }
 
 .file-upload-btn {
@@ -72,14 +65,14 @@ body {
     position: relative;
     object-fit: contain;
     border-radius: 10px;
-    border: dashed 2px #35465d;
-    background-color: #ffffff;
+    border: dashed 2px #005614;
+    background-color: #28a7453b;
 }
 
 .image-dropping,
 .image-upload-wrap:hover {
-    background-color: #35465d;
-    border: 1.5px dashed #ffffff;
+    background-color: #e2f9a7;
+    border: 2px dashed #005614;
 }
 
 .image-title-wrap {
@@ -97,7 +90,7 @@ body {
     font-family: 'HS-Regular';
     font-size: 1.5rem;
     line-height: 1.53;
-    color: #001104;
+    color: #000000bf;
     width: 50%;
     margin: 0 auto;
 }
@@ -109,44 +102,9 @@ body {
     padding: 20px;
 }
 
-.remove-image {
-    width: 200px;
-    margin: 0;
-    color: #fff;
-    background: #cd4535;
-    border: none;
-    padding: 10px;
-    border-radius: 4px;
-    border-bottom: 4px solid #b02818;
-    transition: all .2s ease;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.remove-image:hover {
-    background: #c13b2a;
-    color: #ffffff;
-    transition: all .2s ease;
-    cursor: pointer;
-}
-
-.remove-image:active {
-    border: 0;
-    transition: all .2s ease;
-}
-
-.nav-distance {
-    padding: 2.1% 7.7%;
-}
-
-
-.navbar-light .navbar-toggler {
-    border-color: #ffffff;
-}
 
 .section {
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 .title {
@@ -161,12 +119,30 @@ body {
     font-family: 'HS-Regular';
     line-height: 1.53;
     text-align: center;
-    color: #834a00;
+    color: #d54f00;
+}
+
+.navbar{
+    background-color: rgb(205 220 57);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 5px #cc74007d;
+}
+
+.nav-distance {
+    padding: 2.1% 7.7%;
+}
+
+
+.navbar-light .navbar-toggler {
+    border-color: #ffffff;
 }
 
 .navbar-light .navbar-brand {
     font-family: 'HS-Regular';
-    color: #35465d;
+    color: rgb(213 55 70 / 89%);
     text-align: left;
     line-height: 1.68;
     display: inline-block;
@@ -188,26 +164,39 @@ body {
     }
 }
 
-.instagram-link {
-    font-family: 'HS-Regular';
-    font-size: 1rem;
-    line-height: 1.71;
-    text-align: center;
-    color: #1900ff;
-    text-decoration: underline;
-}
 
 element.style {
     width: 65%;
     margin: 0 auto;
 }
 
+.fiona-images-div{
+    text-align: center;
+    margin-top: 30px;
+}
+.fiona-images{
+    display: inline;
+    width: 10%;
+}
 .img-area{
     line-height:10%;
-
+    
 }
+
+.instagram-id{
+    padding-left: 0px;
+}
+
+.instagram-link {
+    font-family: 'HS-Regular';
+    font-size: 1rem;
+    line-height: 1.71;
+    color: #1900ff;
+    text-decoration: underline;
+}
+
 .instagram-icon{
-    width:2.3%;
+    width:4%;
     vertical-align: middle;
 }
 .fiona-face{

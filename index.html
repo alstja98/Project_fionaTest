@@ -23,39 +23,45 @@
 
         <div class="img-area">
             <a class="navbar-brand" href="https://ai-fionatest.shop/">피오나공주 판별 테스트</a>
-            <img src="./project_image/fiona-face.png" class="fiona-face" >
+            <img src="./project_image/fiona-face.png" class="fiona-face">
         </div>
     </nav>
+    <div class="fiona-images-div">
+        <img src="./project_image/fiona_3.png" class="mr-5 fiona-images">
+        <img src="./project_image/fiona_1.png" class="mr-5 fiona-images" style="width: 6.7%;">
+        <img src="./project_image/fiona_2.png" class="fiona-images" style="width: 10.7%">
+    </div>
     <section class="section">
         <h1 class="title">피오나 판별 테스트</h1>
         <h2 class="subtitle">인공지능은 당신을 피오나공주로 볼까?</h2>
     </section>
-    
-    
-    
+
+
+
     <div class="container file-upload">
         <div class="image-upload-wrap">
             <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
             <div class="drag-text">
                 <img src="./project_image/upload-image.png" class="mt-5 pt-5 upload">
-                
+
                 <h3 class="mb-5 pd-5 pt-4 upload-text">얼굴 사진을 올려놓거나 눌러서 업로드하세요.</h3>
             </div>
         </div>
         <div class="file-upload-content">
             <img class="file-upload-image" id='face-image' src="#" alt="your image" />
-            <!--   <div id="loading" class="animated bounce">
+            <div id="loading" class="animated bounce">
                 <div class="spinner-border" role="status">
                     <span class="sr-only">Loading...</span>
                 </div>
                 <p class="text-center">인공지능이 당신의 사진을 분석중입니다.</p>
-            </div> -->
+            </div>
             <p class="result-message"></p>
-            <div id="label-container"></div>
-            
-            <div class="pt-5 image-title-wrap">
-                <button type="button" onclick="removeUpload()" class="remove-image">Remove
-                    <span class="image-title">Uploaded Image</span>
+            <div id="label-container" class="d-flex flex-column justify-content-around"></div>
+
+            <div class="pt-3 image-title-wrap">
+                <button type="button p-2" class="try-again-btn" onclick="gaReload1();" data-toggle="modal"
+                    data-target="#adModal">
+                    <span class="try-again-text">다른 사진으로 재시도</span>
                 </button>
             </div>
         </div>
@@ -63,14 +69,14 @@
             <div class="container mt-1 instagram-id">
                 <div class="img-area">
                     <a href="https://www.instagram.com/island._.o/" class="instagram-link">Developer: island._.O</a>
-                    <img src="./project_image/instagram_icon.png" alt="instagram-icon" class="instagram-icon" >
+                    <img src="./project_image/instagram_icon.png" alt="instagram-icon" class="instagram-icon">
                 </div>
             </div>
         </section>
-    
-        <div class="addthis_inline_share_toolbox_tlk6"></div>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <div class="addthis_inline_share_toolbox_nuik"></div>
     </div>
-    
+
     <div id="webcam-container"></div>
 
 
@@ -173,6 +179,9 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript">
 
+        function gaReload1(){
+            gtag('event')
+        }
         function readURL(input) {
             if (input.files && input.files[0]) {
                 var reader = new FileReader();
@@ -207,7 +216,9 @@
     </script>
 
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6291ce2e0d696997"></script>
+    <script type="text/javascript"
+        src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6291ce2e0d696997"></script>
+
 </body>
 
 <!-- Copyright (c) 2020 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
