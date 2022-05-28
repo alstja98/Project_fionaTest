@@ -1,8 +1,8 @@
 body {
     font-family: sans-serif;
     background-color: #b6fd87;
-
 }
+
 .upload{
     width:20%;
     opacity: 50%;
@@ -48,6 +48,10 @@ body {
 .file-upload-content {
     display: none;
     text-align: center;
+}
+
+#loading{
+    display:none;
 }
 
 .file-upload-input {
@@ -153,6 +157,20 @@ body {
     white-space: nowrap;
 }
 
+.try-again-btn {
+    border-radius: 40px;
+    border: solid 1.5px #35465d;
+    background-color: #1c2a3c;
+  }
+  
+  .try-again-text {
+    font-family: 'twayair';
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 4px 15px;
+  }
 
 @media screen and (max-width:600px) {
     html {
@@ -205,9 +223,122 @@ element.style {
     padding-bottom: 15px;
 }
 
-@font-face {
-    font-family: 'HS-Regular';
+.text-center{
+    font-family: 'LeeSeoyun';
+    font-size:30px;
+}
+
+.result-message{
+    font-family: '1973MimiWorldR';
+    font-size: 45px;
+    font-weight: bold;
+    color:#dc3535;
+}
+
+.animal-label {
+    width: 30%;
+    text-align: left;
+    height: 2rem;
+}
+
+.bar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(235, 166, 190, 0.2);
+  }
+  
+  .피오나공주-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 2rem;
+      border-radius: 10px;
+      background-color: rgba(235, 166, 190, 1);
+    }
+  .백설공주-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 2rem;
+      border-radius: 10px;
+      background-color: rgba(235, 166, 190, 1);
+    }
+  .엘사-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 2rem;
+      border-radius: 10px;
+      background-color: rgba(235, 166, 190, 1);
+    }
+  .신데렐라-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 2rem;
+      border-radius: 10px;
+      background-color: rgba(235, 166, 190, 1);
+    }
+  .미녀와야수벨-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 2rem;
+      border-radius: 10px;
+      background-color: rgba(235, 166, 190, 1);
+    }
+  .라푼젤-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 2rem;
+      border-radius: 10px;
+      background-color: rgba(235, 166, 190, 1);
+    }
+  .인어공주-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 2rem;
+      border-radius: 10px;
+      background-color: rgba(235, 166, 190, 1);
+    }
+  .쟈스민-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 2rem;
+      border-radius: 10px;
+      background-color: rgba(235, 166, 190, 1);
+    }
+  @font-face {
+      font-family: 'HS-Regular';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'twayair';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '1973MimiWorldR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.1/1973MimiWorldR.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
