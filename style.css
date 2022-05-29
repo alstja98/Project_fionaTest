@@ -225,13 +225,14 @@ element.style {
 
 .text-center{
     font-family: 'LeeSeoyun';
-    font-size:30px;
+    font-size:1.1rem;
+    font-weight: bold;
 }
 
 .result-message{
     font-family: '1973MimiWorldR';
-    font-size: 45px;
-    font-weight: bold;
+    font-size: 2.3rem;
+    font-weight:bold;
     color:#dc3535;
 }
 
