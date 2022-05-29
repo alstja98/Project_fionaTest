@@ -6,7 +6,7 @@ import urllib.request
 driver = webdriver.Chrome()
 driver.get("https://www.google.co.kr/imghp?hl=ko&ogbl")
 elem = driver.find_element_by_name("q")
-elem.send_keys("common korean face")
+elem.send_keys("동양인 여자")
 elem.send_keys(Keys.RETURN)
 SCROLL_PAUSE_TIME = 1
 
@@ -27,7 +27,7 @@ while True:
     last_height = new_height
 
 count = 1
-for i in range(0,200):
+for i in range(0,150):
     try:
         driver.find_elements_by_css_selector(".rg_i.Q4LuWd")[i].click()
         time.sleep(0.5)

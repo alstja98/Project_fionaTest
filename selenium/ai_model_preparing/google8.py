@@ -6,7 +6,7 @@ import urllib.request
 driver = webdriver.Chrome()
 driver.get("https://www.google.co.kr/imghp?hl=ko&ogbl")
 elem = driver.find_element_by_name("q")
-elem.send_keys("알라딘 쟈스민")
+elem.send_keys("자스민 메이크업")
 elem.send_keys(Keys.RETURN)
 SCROLL_PAUSE_TIME = 1
 
@@ -27,10 +27,10 @@ while True:
     last_height = new_height
 
 count = 1
-for i in range(0,200):
+for i in range(0,150):
     try:
         driver.find_elements_by_css_selector(".rg_i.Q4LuWd")[i].click()
-        time.sleep(3)
+        time.sleep(0.7)
         imgUrl = driver.find_element_by_css_selector(".n3VNCb.KAlRDb").get_attribute("src")
         urllib.request.urlretrieve(imgUrl, "./img08/"+str(count)+".jpg")
         count=count+1
