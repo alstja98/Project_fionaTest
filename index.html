@@ -141,29 +141,28 @@
             prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
             let resultTitle;
             switch (prediction[0].className) {
-                case "피오나공주":
-
+                case "fiona":
                     resultTitle = '당신은 공주 "피오나" 군요!'
                     break;
-                case "백설공주":
+                case "snowwhite":
                     resultTitle = '당신은 "백설공주" 군요!'
                     break;
-                case "엘사":
+                case "elsa":
                     resultTitle = '당신은 겨울왕국의 "엘사" 이군요!'
                     break;
-                case "신데렐라":
+                case "cinderella":
                     resultTitle = '당신은 "신데렐라" 군요!'
                     break;
-                case "미녀와야수 벨":
+                case "bell":
                     resultTitle = '당신은 공주 "벨" 이군요!'
                     break;
-                case "라푼젤":
+                case "tangled":
                     resultTitle = '당신은 "라푼젤" 이군요!'
                     break;
-                case "인어공주":
+                case "water":
                     resultTitle = '당신은 "인어공주" 군요!'
                     break;
-                case "쟈스민":
+                case "jasmine":
                     resultTitle = '당신은 알리딘의 "쟈스민" 이군요!'
                     break;
             }
@@ -181,28 +180,28 @@
                 }
             let resultMessege;
             switch (prediction[i].className) {
-                case "피오나공주":
+                case "fiona":
                     resultMessege = '피오나'
                     break;
-                case "백설공주":
+                case "snowwhite":
                     resultMessege = '백설공주'
                     break;
-                case "엘사":
+                case "elsa":
                     resultMessege = '엘사'
                     break;
-                case "신데렐라":
+                case "cinderella":
                     resultMessege = '신데렐라'
                     break;
-                case "미녀와야수 벨":
+                case "bell":
                     resultMessege = '미녀와 야수 벨'
                     break;
-                case "라푼젤":
+                case "tangled":
                     resultMessege = '라푼젤'
                     break;
-                case "인어공주":
+                case "water":
                     resultMessege = '인어공주'
                     break;
-                case "쟈스민":
+                case "jasmine":
                     resultMessege = '쟈스민'
                     break;
             }
