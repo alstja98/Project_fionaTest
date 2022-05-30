@@ -13,7 +13,7 @@ body {
     background-color: #cddc39;
     margin: 0 auto;
     padding: 3% 3%;
-    width: 50%;
+    width: 80%;
     border-radius: 15px;
     border: solid 1.5px #cddc39;
 
@@ -196,7 +196,7 @@ element.style {
 
 .fiona-images {
     display: inline;
-    width: 10%;
+    width: 14%;
 }
 
 .img-area {
