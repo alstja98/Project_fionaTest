@@ -252,6 +252,9 @@ element.style {
     height: 2rem;
 }
 
+#label-container{
+    display: none;
+}
 .bar-container {
     position: absolute;
     top: 0;
