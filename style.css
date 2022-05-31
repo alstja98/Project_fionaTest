@@ -72,6 +72,7 @@ body {
     border-radius: 10px;
     border: dashed 2px #005614;
     background-color: #28a7453b;
+    display: none;
 }
 
 .image-dropping,
@@ -336,6 +337,36 @@ element.style {
     border-radius: 10px;
     background-color: rgba(235, 166, 190, 1);
 }
+
+.description{
+    text-align: center;
+    font-family: 'LeeSeoyun';
+}
+
+.desc_text{
+    font-size: 1.7rem;
+}
+
+.start-test{
+    font-size:1.4rem;
+    font-weight: bold;
+}
+.start-test-button{
+    border-radius: 40px;
+    border: solid 1.5px #387445;
+    background-color: white;
+    width: 30%;
+    height: 5vw;
+}
+.start-test-button:hover{
+    background-color: #d2d2d2;
+    border: dashed 1.5px #35465d;
+}
+
+.ps{
+    color:red;
+}
+
 
 @font-face {
     font-family: 'HS-Regular';
